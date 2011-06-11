@@ -2,4 +2,5 @@
 <% title(@project.name, "Projects") %>
 <menu>
  <%= link_to "Edit", edit_project_path(@project) %>
+ <%= link_to "Delete", @project, :method => :delete, :confirm => "Are you sure you want to delete this project?" %>
 </menu>
