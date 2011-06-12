@@ -9,6 +9,8 @@ Bundler.require(:default, Rails.env) if defined?(Bundler)
 module Ticketee
   class Application < Rails::Application
 
+    config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+
     config.generators do |g|
      g.test_framework :rspec
     end
