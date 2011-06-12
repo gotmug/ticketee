@@ -9,4 +9,3 @@ Given /^there are the following users:$/ do |table|
     @user.confirm! unless unconfirmed
   end
 end
-

@@ -43,6 +43,7 @@ GEM
     celerity (0.8.9)
     childprocess (0.1.9)
       ffi (~> 1.0.6)
+    configuration (1.2.0)
     cucumber (0.10.6)
       builder (>= 2.1.2)
       diff-lcs (>= 1.1.2)
@@ -71,6 +72,9 @@ GEM
     i18n (0.6.0)
     json (1.5.1)
     json_pure (1.5.1)
+    launchy (0.4.0)
+      configuration (>= 0.0.5)
+      rake (>= 0.8.1)
     mail (2.2.19)
       activesupport (>= 2.3.6)
       i18n (>= 0.4.0)
@@ -141,6 +145,7 @@ DEPENDENCIES
   devise (= 1.2.rc)
   email_spec
   factory_girl
+  launchy
   rails (= 3.0.4)
   rspec-rails (~> 2.3)
   sqlite3-ruby
