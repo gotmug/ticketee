@@ -17,4 +17,5 @@ group :test do
 end
 
 gem 'devise', '1.2.rc'
+gem 'cancan'
 
